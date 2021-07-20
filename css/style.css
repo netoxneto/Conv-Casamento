@@ -9,6 +9,10 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-        background: rgb(194,225,231);
-        background: linear-gradient(90deg, rgba(194,225,231,1) 4%, rgba(255,255,255,1) 46%, rgba(194,225,231,1) 98%);
+        background: rgb(223,255,251);
+        background: -moz-radial-gradient(circle, rgba(223,255,251,1) 0%, rgba(182,217,218,1) 100%);
+        background: -webkit-radial-gradient(circle, rgba(223,255,251,1) 0%, rgba(182,217,218,1) 100%);
+        background: radial-gradient(circle, rgba(223,255,251,1) 0%, rgba(182,217,218,1) 100%);
+        filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dffffb",endColorstr="#b6d9da",GradientType=1);
+    }
 }
