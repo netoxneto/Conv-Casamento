@@ -18,7 +18,7 @@ h1 {
 #jelmig {
     color: rgb(94, 166, 180);
     font-size: 60px;
-    animation: transitionIn 4s;
+    animation: transitionIn 2s;
 }
 
 .jelmig {
@@ -28,7 +28,7 @@ h1 {
 
 #logo {
     width: 40%;
-    animation: transitionIntr 4s;
+    animation: transitionIntr 2s;
 }
 
 .logo{
