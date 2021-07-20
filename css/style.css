@@ -9,6 +9,6 @@ body {
 
 @media only screen and (max-width: 600px) {
     body {
-      background-color: rgb(142, 149, 185);
-    }
+        background: rgb(194,225,231);
+        background: linear-gradient(90deg, rgba(194,225,231,1) 4%, rgba(255,255,255,1) 46%, rgba(194,225,231,1) 98%);
 }
