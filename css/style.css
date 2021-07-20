@@ -7,6 +7,10 @@ body {
     background-color: rgb(255, 60, 0);
 }
 
+h1 {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif ;
+}
+
 @media only screen and (max-width: 600px) {
     body {
         background: rgb(223,255,251);
