@@ -18,6 +18,7 @@ h1 {
 #jelmig {
     color: rgb(94, 166, 180);
     font-size: 60px;
+    animation: transitionIn 4s;
 }
 
 .jelmig {
@@ -27,11 +28,36 @@ h1 {
 
 #logo {
     width: 40%;
+    animation: transitionIntr 4s;
 }
 
 .logo{
     text-align: center;
     margin-top: 1%;
+}
+
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
+@keyframes transitionIntr {
+    from {
+        opacity: 0;
+        transform: translateX(-200px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @media only screen and (max-width: 600px) {
