@@ -11,29 +11,42 @@ body {
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dffffb",endColorstr="#b6d9da",GradientType=1);
 }
 
+.div-primaria {
+    width: 100%;
+    display: inline-block;
+    
+}
+
 h1 {
     font-family: 'Parisienne', cursive;
 }
 
 #jelmig {
     color: rgb(94, 166, 180);
-    font-size: 60px;
-    animation: transitionIn 2s;
+    font-size: 72px;
 }
 
 .jelmig {
     text-align: center;
-    margin-top: 50px;
+    margin-top: 100px;
+    float: right;
+    margin-right: 35%;
+    animation: transitionIn 3s;
+    
 }
 
 #logo {
-    width: 40%;
-    animation: transitionIntr 2s;
+    width: 100%;
 }
 
 .logo{
+    width: 250px;
+    height: 250px;
     text-align: center;
-    margin-top: 1%;
+    float: left;
+    margin-top: 20px;
+    animation: transitionIntr 3s;
+    
 }
 
 @keyframes transitionIn {
@@ -78,6 +91,19 @@ h1 {
     }
 
     .jelmig {
+        width: 100%;
+        text-align: center;
         margin-top: 40%;
+        margin-right: 0;
+        
+    }
+
+    .logo{
+        width: 100%;
+        height: 100%;
+        text-align: center;
+        float: left;
+        margin-top: 20px;
+        
     }
 }
