@@ -4,11 +4,15 @@
 }
 
 body {
-    background: rgb(223,255,251);
+    /*background: rgb(223,255,251);
     background: -moz-radial-gradient(circle, rgba(223,255,251,1) 0%, rgba(182,217,218,1) 100%);
     background: -webkit-radial-gradient(circle, rgba(223,255,251,1) 0%, rgba(182,217,218,1) 100%);
     background: radial-gradient(circle, rgba(223,255,251,1) 0%, rgba(182,217,218,1) 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dffffb",endColorstr="#b6d9da",GradientType=1);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#dffffb",endColorstr="#b6d9da",GradientType=1);*/
+    background-image: url("../img/background.png");
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-color: #f4f7fa;
 }
 
 .div-primaria {
@@ -156,6 +160,11 @@ h1 {
 }
 
 @media only screen and (max-width: 360px) {
+    body{
+        background-size: auto;
+        background-position-x: -900px;
+    }
+
     .versiculo{
         width: 100%;
         margin-top: 15%;
@@ -220,6 +229,11 @@ h1 {
 }
 
 @media only screen and (min-width: 361px) and (max-width: 467px) {
+    body{
+        background-size: auto;
+        background-position-x: -830px;
+    }
+
     .versiculo{
         width: 100%;
         margin-top: 15%;
@@ -280,6 +294,11 @@ h1 {
 }
 
 @media only screen and (min-width: 468px) and (max-width: 600px) {
+    body{
+        background-size: auto;
+        background-position-x: -700px;
+    }
+
     .versiculo{
         width: 100%;
         margin-top: 15%;
@@ -340,6 +359,11 @@ h1 {
 }
 
 @media only screen and (min-width: 601px) and (max-width: 1200px) {
+    body{
+        background-size: auto;
+        background-position-x: -300px;
+    }
+
     .versiculo{
         width: 100%;
         margin-top: 15%;
