@@ -11,7 +11,17 @@
     <title>Jéssica e Miguel</title>
 </head>
 <body>
-    
+    <header>
+        <div class="icon-menu">
+            <object data="svg/menu.svg" type="image/svg+xml" id="icon-menu"></object>
+        </div>
+        <div class="menu">
+            <a href="#" id="cim">Home</a>
+            <a href="#">Sobre</a>
+            <a href="#">Contato</a>
+        </div>
+    </header>
+
     <div class="div-primaria">
         <div class="versiculo">
             <p class="vers">"Nós amamos porque Ele nos amou primeiro."</p>
@@ -44,6 +54,14 @@
             <p class="fontlocal">São João do Panelinha</p>
         </div>
     </div>
+
+<script>
+    var iconMenu = document.querySelectorAll('.icon-menu');
+
+    iconMenu[0].addEventListener('click',()=>{
+        alert("clicado");
+    });
+</script>
 
 </body>
 </html>
