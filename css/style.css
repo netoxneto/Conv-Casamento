@@ -14,6 +14,7 @@ body {
     background-size: auto;
     background-repeat: no-repeat;
     background-color: #f4f7fa;
+    overflow-x: hidden;
 }
 
 header {
@@ -33,6 +34,9 @@ header {
     overflow: hidden;
 }
 
+.menu1 {
+    display: none;
+}
 .hide {
     display: none;
     opacity: 0;
@@ -69,6 +73,17 @@ svg {
     margin-right: 10px;
     margin-top: 10px;
     animation: transitionIn 1s;
+    overflow: hidden;
+}
+
+.icon-menuHide {
+    animation: none;
+    opacity: 0;
+}
+
+.icon-menuShow {
+    animation: transitionInnovo 1s;
+    opacity: 1;
 }
 
 .div-primaria {
@@ -191,6 +206,18 @@ h1 {
     }
 }
 
+@keyframes transitionInnovo {
+    from {
+        opacity: 1;
+        transform: translateX(200px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+
 @keyframes transitionIntr {
     from {
         opacity: 0;
@@ -302,12 +329,41 @@ h1 {
         background-position-x: -830px;
     }
 
-    .menu{
-        height: 100%;
+    .menu {
+        display: none;
     }
 
-    .menu a{
-        display: flex;
+    .menu1 {
+        display: inline-block;
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        height: 100%;
+        background-color: rgb(116, 116, 116);
+        text-align: center;
+        overflow: hidden;
+    }
+
+    .hide1 {
+        display: none;
+        opacity: 0;
+    }
+    
+    .menu1 a{   
+        display: inline-block;
+        text-decoration: none;
+        padding-top: 50px;
+        color: white;
+        font-size: 23px;
+    }
+    
+    #cima{
+        margin-top: 30%;
+    }
+
+    .menu1 a:hover{
+        text-decoration: underline;
     }
 
     .hidecel{
