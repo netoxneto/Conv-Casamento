@@ -30,4 +30,3 @@ sMenu[0].addEventListener('click', ()=>{
         iconh.classList.add('icon-menuShow');
     }
 });
-
