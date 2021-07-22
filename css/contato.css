@@ -1,0 +1,324 @@
+#vfalar{
+    position: relative;
+    
+    font-size: 40px;
+    float: right;
+    text-align: center;
+    margin-right: 35%;
+    margin-top: 4%;
+    animation: transitionInen 2s;
+}
+
+.icon-whats{
+    width: 70px;
+    height: 70px;
+    margin-left: 33%;
+    opacity: 0.8;
+    
+}
+
+.icon-email{
+    width: 70px;
+    height: 70px;
+    margin-left: 33%;
+    opacity: 0.8;
+     
+}
+
+.icon-instagram {
+    width: 70px;
+    height: 70px;
+    margin-left: 33%;
+    opacity: 0.8;
+    
+}
+
+.whatsapp{
+    width: 200px;
+    height: 200px;
+    float: left;
+    margin-top: 15%;
+    margin-left: 7%;
+    text-align: center;
+    
+    animation: transitionIntr 1s;
+}
+
+.instagram {
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin-top: 15%;
+    margin-left: 42%;
+    
+    animation: transitionInen 2s;
+}
+
+.email {
+    width: 200px;
+    height: 200px;
+    float: right;
+    margin-right: 7%;
+    margin-top: -200px;
+    text-align: center;
+    
+    animation: transitionIn 1s;
+}
+
+a {
+    text-decoration: none;
+    color: rgb(24, 110, 128);
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.endCont {
+    margin-top: 20px;
+    
+}
+
+.tes {
+    margin-top: 3px;
+}
+
+@media only screen and (max-width: 360px){
+    #vfalar{
+        width: 100%;
+        
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15%;
+        float: none;
+        animation: transitionInen 2s;
+    }
+
+    .whatsapp{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        margin-top: 20%;
+        
+        animation: transitionIntr 1s;
+    }
+    
+    .instagram {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        
+        animation: transitionIn 1s;
+    }
+    
+    .email {
+        width: 100%;
+        float: right;
+        margin: 0;
+        text-align: center;
+        
+        animation: transitionIntr 1s;
+    }
+
+    .icon-whats{
+        margin-left: 41%;
+    }
+    
+    .icon-email{
+        margin-left: 41%;
+    }
+    
+    .icon-instagram {
+        margin-left: 41%;
+    }
+
+    .tes {
+        margin-top: 6px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (min-width: 361px) and (max-width: 467px){
+    #vfalar{
+        width: 100%;
+        
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15%;
+        float: none;
+        animation: transitionInen 2s;
+    }
+
+    .whatsapp{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        margin-top: 20%;
+        
+        animation: transitionIntr 1s;
+    }
+    
+    .instagram {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        
+        animation: transitionIn 1s;
+    }
+    
+    .email {
+        width: 100%;
+        float: right;
+        margin: 0;
+        text-align: center;
+        
+        animation: transitionIntr 1s;
+    }
+
+    .icon-whats{
+        margin-left: 41%;
+    }
+    
+    .icon-email{
+        margin-left: 41%;
+    }
+    
+    .icon-instagram {
+        margin-left: 41%;
+    }
+
+    .tes {
+        margin-top: 6px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+}
+
+@media only screen and (min-width: 468px) and (max-width: 600px){
+    #vfalar{
+        width: 100%;
+        
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15%;
+        float: none;
+        animation: transitionInen 2s;
+    }
+
+    .whatsapp{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        margin-top: 20%;
+        
+        animation: transitionIntr 1s;
+    }
+    
+    .instagram {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        
+        animation: transitionIn 1s;
+    }
+    
+    .email {
+        width: 100%;
+        float: right;
+        margin: 0;
+        text-align: center;
+        
+        animation: transitionIntr 1s;
+    }
+
+    .icon-whats{
+        margin-left: 41%;
+    }
+    
+    .icon-email{
+        margin-left: 41%;
+    }
+    
+    .icon-instagram {
+        margin-left: 41%;
+    }
+
+    .tes {
+        margin-top: 6px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+}
+
+
+@media only screen and (min-width: 601px) and (max-width: 1200px){
+    #vfalar{
+        width: 100%;
+        
+        font-size: 30px;
+        text-align: center;
+        margin-top: 15%;
+        float: none;
+        animation: transitionInen 2s;
+    }
+
+    .whatsapp{
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        margin-top: 20%;
+        
+        animation: transitionIntr 1s;
+    }
+    
+    .instagram {
+        width: 100%;
+        float: none;
+        text-align: center;
+        margin: 0;
+        
+        animation: transitionIn 1s;
+    }
+    
+    .email {
+        width: 100%;
+        float: right;
+        margin: 0;
+        text-align: center;
+        
+        animation: transitionIntr 1s;
+    }
+
+    .icon-whats{
+        margin-left: 45%;
+    }
+    
+    .icon-email{
+        margin-left: 45%;
+    }
+    
+    .icon-instagram {
+        margin-left: 45%;
+    }
+
+    .tes {
+        margin-top: 6px;
+    }
+
+    a {
+        font-size: 17px;
+    }
+}
