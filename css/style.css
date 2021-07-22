@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -18,7 +19,7 @@ body {
 header {
     width: 100%;
     display: inline-block;
-    border: 1px solid #000;
+    
 }
 
 .menu {
@@ -27,20 +28,25 @@ header {
     top: 0;
     width: 100%;
     height: 100px;
-    overflow: hidden;
     background-color: rgb(116, 116, 116);
     text-align: center;
+    overflow: hidden;
+}
+
+.hide {
+    display: none;
     opacity: 0;
 }
 
 .show {
-    transition: 1s;
-    opacity: 1;
+    animation: transitionInMenuShow 1s;
+    opacity: 0.5;
 }
 
 .menu a{   
     display: inline-block;
-    padding: 30px 0;
+    padding-top: 30px;
+    padding-left: 80px;
     text-decoration: none;
     color: white;
     font-size: 23px;
@@ -50,8 +56,10 @@ header {
     text-decoration: underline;
 }
 
-#icon-menu {
+svg {
     width: 100%;
+    height: 100%;
+    cursor: pointer !important;
 }
 
 .icon-menu {
@@ -60,8 +68,7 @@ header {
     float: right;
     margin-right: 10px;
     margin-top: 10px;
-    cursor: pointer;
-    border: 1px solid #000;
+    animation: transitionIn 1s;
 }
 
 .div-primaria {
@@ -208,6 +215,18 @@ h1 {
     }
 }
 
+@keyframes transitionInMenuShow {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+
+    to{
+        opacity: 0.5;
+        transform: rotateX(0);
+    }
+}
+
 @media only screen and (max-width: 360px) {
     body{
         background-size: auto;
@@ -281,6 +300,18 @@ h1 {
     body{
         background-size: auto;
         background-position-x: -830px;
+    }
+
+    .menu{
+        height: 100%;
+    }
+
+    .menu a{
+        display: flex;
+    }
+
+    .hidecel{
+        display: none;
     }
 
     .versiculo{
