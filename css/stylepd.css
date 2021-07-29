@@ -1,0 +1,36 @@
+.verspd {
+    width: 30%;
+    float: right;
+    margin-right: 37%;
+    animation: transitionInen 3s;
+    text-align: center;
+    margin-top: 10px;
+    border: 1px solid #000;
+}
+
+.jelmigpd {
+    text-align: center;
+    margin-top: 50px;
+    float: right;
+    margin-right: 45%;
+    animation: transitionIn 3s;
+    border: 1px solid #000;
+}
+
+#jelmigpd {
+    color: rgb(94, 166, 180);
+    font-size: 30px;
+}
+
+#isa{
+    font-size: 30px;
+    color: rgb(94, 166, 180);
+    font-family: 'Parisienne', cursive;
+}
+
+#date {
+    font-size: 15px;
+    color: rgb(94, 166, 180);
+    font-family: 'Parisienne', cursive;
+    font-weight: bolder;
+}
