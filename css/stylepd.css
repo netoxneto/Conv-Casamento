@@ -54,17 +54,21 @@
 
     }
 
+    #logo{
+        width:200px;
+    }
+
     .logo{
-        display: none;
+        height: 150px;
     }
 
     #marg-top {
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .jelmigpd {
-        margin-top: 30%;
-        margin-right: 12%;
+        margin-top: 5%;
+        margin-right: 21%;
     }
 }
 
@@ -78,16 +82,20 @@
 
     }
 
+    #logo{
+        width:200px;
+    }
+
     .logo{
-        display: none;
+        height: 150px;
     }
 
     #marg-top {
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .jelmigpd {
-        margin-top: 30%;
+        margin-top: 5%;
         margin-right: 24%;
     }
 }
@@ -102,16 +110,20 @@
 
     }
 
+    #logo{
+        width:200px;
+    }
+
     .logo{
-        display: none;
+        height: 150px;
     }
 
     #marg-top {
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .jelmigpd {
-        margin-top: 30%;
+        margin-top: 5%;
         margin-right: 29%;
     }
 }
@@ -126,16 +138,20 @@
 
     }
 
+    #logo{
+        width:200px;
+    }
+
     .logo{
-        display: none;
+        height: 150px;
     }
 
     #marg-top {
-        margin-top: 20%;
+        margin-top: 15%;
     }
 
     .jelmigpd {
-        margin-top: 30%;
+        margin-top: 5%;
         margin-right: 37%;
     }
 }
