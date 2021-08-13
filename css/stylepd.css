@@ -44,6 +44,13 @@
     font-size: 25px;
 }
 
+img {
+    width: 1080px;
+}
+
+.manual {
+}
+
 @media only screen and (max-width: 360px){
     .verspd {
         width: 100%;
