@@ -15,3 +15,7 @@
 #contato-infor:hover{
     text-decoration: underline;
 }
+
+.hidecel{
+    display: none;
+}

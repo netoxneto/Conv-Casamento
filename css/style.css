@@ -260,6 +260,10 @@ h1 {
         background-position-x: -900px;
     }
 
+    .infor-div{
+        padding: 30px;
+    }
+
     .menu {
         display: none;
     }
@@ -379,6 +383,10 @@ h1 {
         background-position-x: -830px;
     }
 
+    .infor-div{
+        padding: 30px;
+    }
+
     .menu {
         display: none;
     }
@@ -494,6 +502,10 @@ h1 {
         background-position-x: -700px;
     }
 
+    .infor-div{
+        padding: 30px;
+    }
+
     .menu {
         display: none;
     }
@@ -607,6 +619,10 @@ h1 {
     body{
         background-size: auto;
         background-position-x: -300px;
+    }
+
+    .infor-div{
+        padding: 30px;
     }
 
     .menu {
